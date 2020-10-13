@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <title>ZapWebFast 2.0</title>
+</head>
+<body>
+    <div class="bg-green-400 min-h-screen min-w-screen" id="container">
+        <!-- <header class="items-center p-5">
+            <div class="flex-grow">
+                <h1 class="p-2 text-2xl text-center text-white">ZapWebFast 2.0</h1>
+            </div>
+        </header> -->
+        <main class="grid grid-cols-1 lg:grid-cols-2  bg-green-400">
+            <div class="p-8 pt-0 lg:pt-8 justify-self-center self-center">
+                <div class="text-white m-4">
+                    <h1 class="text-3xl">Envie mensagens pelo Whatsapp sem salvar em seus contatos!</h1>
+                </div>
+                <div class="flex-grow m-4">
+                    <form class="bg-white shadow-lg rounded-lg p-4">
+                        <div class="mb-2">
+                            <label class="block mb-2">Telefone</label>
+                            <input class="w-full p-2 border-2 rounded-md border-gray-200 focus:outline-none" type="number" id="number" placeholder="DDD + numero de telefone"/>
+                        </div>
+                        <div class="mb-2">
+                            <label class="block mb-2">Mensagem</label>
+                            <textarea class="w-full p-2 border-2 rounded-md border-gray-300 focus:outline-none" rows="3" cols="60" id="msg" placeholder="digite sua mensagem"></textarea>
+                        </div>
+                        <div>
+                            <a class="btn bg-green-400 houver:bg-green-600 py-1 px-3 rounded-md text-white focus:outline-none" id="send" target="_blanck">Enviar</a>
+                        </div>
+                    </form>
+                </div>
+            </div>
+            <div class="hidden lg:inline justify-self-center self-center p-24">
+                <img class="rounded-full w-full" src="./img/hero.png" />
+            </div>
+        </main>
+    </div>
+
+    <script type="text/javascript" src="js/main.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+</body>
+</html>
