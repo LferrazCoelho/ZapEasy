@@ -16,30 +16,31 @@
     <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;600;700;800;900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.es.gov.br/fonts/font-awesome/css/font-awesome.min.css">
     <link rel="stylesheet" href="./assets/css/main.css" />
+    <link rel="icon" type="imagem/png" href="./assets/img/icon.png">
     <title>ZapEasy</title>
 </head>
 <body class="m-0 p-0">
-    <div class="bg-green-400 min-w-screen min-h-screen m-0 p-3">
+    <div class="bg-green-400 bg-auto min-w-screen min-h-screen m-0 p-0" style="background-image: url(./assets/img/bg-emoji.png)">
         <header class="text-white mb-4 pl-4 pr-4">
                 <div id="menu-desk">
-                    <nav class="navbar justify-content-center pr-5 pl-5">
-                        <h2>ZapEasy</h2>
+                    <nav class="navbar justify-content-center pr-5 pl-5 pt-5">
+                        <img class="ads" src="./assets/img/logo.png" />
                     </nav>
                 </div>
         </header>
         <section class="grid grid-cols-1 lg:grid-cols-4 flex p-3 mb-3">
             <div class="lg:col-start-2 lg:col-span-2 p-2">
-                <div class="text-white text-center mb-4">
-                    <h1 class="text-3xl">Envie mensagens pelo Whatsapp sem salvar nada em seus contatos!</h1>
-                </div>
                 <div class="bg-white shadow-xl rounded-lg p-4">
+                    <div class="mb-2">
+                        <p class="text-2xl">Envie mensagens pelo Whatsapp sem salvar nada em seus contatos!</p>
+                    </div>
                     <div class="mb-2">
                         <label class="block mb-2">Telefone</label>
                         <input class="w-full p-2 border-2 rounded-md border-gray-200 focus:outline-none" type="text" id="number" placeholder="DDD + numero de telefone"/>
                     </div>
                     <div class="mb-2">
                         <label class="block mb-2">Mensagem</label>
-                        <textarea class="w-full p-2 border-2 rounded-md border-gray-300 focus:outline-none" rows="3" cols="60" id="msg" placeholder="digite sua mensagem"></textarea>
+                        <textarea class="w-full p-2 border-2 rounded-md border-gray-300 focus:outline-none" rows="3" cols="60" id="msg" placeholder="digite sua mensagem *opcional*"></textarea>
                     </div>
                     <div>
                         <a class="btn bg-green-400 houver:bg-green-600 py-1 px-3 rounded-md text-white focus:outline-none" id="send" target="_blanck">Enviar</a>
