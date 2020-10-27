@@ -7,6 +7,6 @@
     background-image: url("bg-mobi.png");
 }
 
-.bgdesk {
-    background-image: url("./bg-desk.png");
+#bgdesk {
+    background-image: url(./assets/img/bg-emoji.png);
 }
